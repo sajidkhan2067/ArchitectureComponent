@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents.database;
+package sajid.com.myapplication.database;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;

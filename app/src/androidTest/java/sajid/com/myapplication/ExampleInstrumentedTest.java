@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents;
+package sajid.com.myapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("sajid.com.architecturecomponents", appContext.getPackageName());
+        assertEquals("sajid.com.myapplication", appContext.getPackageName());
     }
 }

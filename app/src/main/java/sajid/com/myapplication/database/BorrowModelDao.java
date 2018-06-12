@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents.database;
+package sajid.com.myapplication.database;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
@@ -10,7 +10,8 @@ import android.arch.persistence.room.TypeConverters;
 import java.util.List;
 
 
-import sajid.com.architecturecomponents.DateConverter;
+import sajid.com.myapplication.DateConverter;
+import sajid.com.myapplication.database.BorrowModel;
 
 import static android.arch.persistence.room.OnConflictStrategy.REPLACE;
 

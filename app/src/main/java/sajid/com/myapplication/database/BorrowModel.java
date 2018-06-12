@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents.database;
+package sajid.com.myapplication.database;
 
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
@@ -7,7 +7,7 @@ import android.arch.persistence.room.TypeConverters;
 
 import java.util.Date;
 
-import sajid.com.architecturecomponents.DateConverter;
+import sajid.com.myapplication.DateConverter;
 
 
 @Entity

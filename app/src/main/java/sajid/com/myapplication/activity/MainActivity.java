@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents.activity;
+package sajid.com.myapplication.activity;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -10,14 +10,13 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
 import java.util.ArrayList;
 import java.util.List;
+import sajid.com.myapplication.R;
+import sajid.com.myapplication.RecyclerViewAdapter;
+import sajid.com.myapplication.database.BorrowModel;
+import sajid.com.myapplication.viewModel.BorrowedListViewModel;
 
-import sajid.com.architecturecomponents.R;
-import sajid.com.architecturecomponents.RecyclerViewAdapter;
-import sajid.com.architecturecomponents.database.BorrowModel;
-import sajid.com.architecturecomponents.viewModel.BorrowedListViewModel;
 
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener  {
     private BorrowedListViewModel viewModel;

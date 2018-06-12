@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents.activity;
+package sajid.com.myapplication.activity;
 
 import android.app.DatePickerDialog;
 import android.arch.lifecycle.ViewModelProviders;
@@ -10,14 +10,11 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
-
-
 import java.util.Calendar;
 import java.util.Date;
-
-import sajid.com.architecturecomponents.R;
-import sajid.com.architecturecomponents.database.BorrowModel;
-import sajid.com.architecturecomponents.viewModel.AddBorrowViewModel;
+import sajid.com.myapplication.R;
+import sajid.com.myapplication.database.BorrowModel;
+import sajid.com.myapplication.viewModel.AddBorrowViewModel;
 
 
 public class AddActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {

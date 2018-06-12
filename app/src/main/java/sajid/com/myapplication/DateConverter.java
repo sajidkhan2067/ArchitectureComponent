@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents;
+package sajid.com.myapplication;
 
 import android.arch.persistence.room.TypeConverter;
 

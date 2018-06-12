@@ -1,14 +1,12 @@
-package sajid.com.architecturecomponents.viewModel;
+package sajid.com.myapplication.viewModel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
-
 import java.util.List;
-
-import sajid.com.architecturecomponents.database.AppDatabase;
-import sajid.com.architecturecomponents.database.BorrowModel;
+import sajid.com.myapplication.database.AppDatabase;
+import sajid.com.myapplication.database.BorrowModel;
 
 public class BorrowedListViewModel extends AndroidViewModel {
 

@@ -1,4 +1,4 @@
-package sajid.com.architecturecomponents;
+package sajid.com.myapplication;
 
 import org.junit.Test;
 

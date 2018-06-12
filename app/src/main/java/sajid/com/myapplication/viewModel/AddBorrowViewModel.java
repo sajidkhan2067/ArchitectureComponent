@@ -1,12 +1,13 @@
-package sajid.com.architecturecomponents.viewModel;
+package sajid.com.myapplication.viewModel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
-import sajid.com.roomdatabase.database.AppDatabase;
-import sajid.com.roomdatabase.database.BorrowModel;
+import sajid.com.myapplication.database.AppDatabase;
+import sajid.com.myapplication.database.BorrowModel;
+
 
 public class AddBorrowViewModel extends AndroidViewModel {
 
